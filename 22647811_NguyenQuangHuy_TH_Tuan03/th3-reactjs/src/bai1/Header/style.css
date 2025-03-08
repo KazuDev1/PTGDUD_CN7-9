@@ -1,0 +1,77 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+#root {
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: left !important;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 1280px;
+    margin-left: 25px;
+    position: absolute;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.search-bar {
+    position: relative;
+}
+
+.search-bar > input {
+    padding: 10px 0;
+    width: 250px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f3f4f6;
+    color: #000;
+    outline: none;
+    padding-left: 35px;
+}
+
+.search-icon {
+    width: 20px;
+    position: absolute;
+    top: 6px;
+    left: 10px;
+}
+
+.nav-links > a{
+    color: #7c7777;
+    font-size: 16px;
+    margin: 0 8px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.profile-section > .search-icon {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+
+.recipe-box  {
+    border-radius: 8px;
+    background-color: #fdeff3;
+    color: #d981a0;
+    margin: 0 12px;
+    padding-left: 30px;
+}

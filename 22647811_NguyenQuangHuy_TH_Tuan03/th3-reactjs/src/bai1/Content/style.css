@@ -1,0 +1,28 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 1280px;
+    height: 800px;
+    margin-left: 25px;
+    position: absolute;
+    top: 103px;
+}
+
+.filter-range {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.filter {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.filter__title {
+    display: flex;
+}
