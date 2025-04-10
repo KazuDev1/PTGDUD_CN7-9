@@ -1,0 +1,68 @@
+/* Đảm bảo toàn bộ màn hình chiếm 100% chiều cao */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Căn giữa nội dung */
+  .App {
+    min-height: 100vh; /* Đảm bảo chiếm toàn bộ chiều cao màn hình */
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    background-color: #fff; /* Nền trắng */
+  }
+  
+  /* Style cho phần máy tính */
+  .calculator {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ */
+  }
+  
+  /* Style cho tiêu đề */
+  .calculator h1 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  /* Style cho ô input */
+  input {
+    display: block;
+    margin: 10px auto; /* Căn giữa ô input */
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Style cho các nút */
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Khoảng cách giữa các nút */
+  }
+  
+  button {
+    padding: 5px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+  }
+  
+  button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Style cho kết quả */
+  h2 {
+    color: #333;
+    margin-top: 20px;
+  }

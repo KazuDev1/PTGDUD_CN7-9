@@ -1,0 +1,125 @@
+/* Container chính */
+.filter-container {
+    position: absolute;
+    top: 100px;
+    left: 25px;
+	width: 300px;
+	background: white;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+	font-family: Arial, sans-serif;
+	}
+
+	/* Tiêu đề chính */
+	.filter-header {
+		display: flex;
+		align-items: center;
+		font-size: 18px;
+		font-weight: bold;
+		gap: 10px;
+		padding-bottom: 10px;
+		border-bottom: 2px solid #ddd;
+	}
+
+	/* Phần tiêu đề từng mục */
+	.filter-section {
+		margin-top: 15px;
+	}
+
+	.filter-section h3 {
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 8px;
+	}
+
+	/* Kiểu hiển thị checkbox */
+	.filter-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 5px;
+	}
+
+	.filter-checkbox {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+		font-size: 14px;
+		cursor: pointer;
+	}
+
+	.filter-checkbox input {
+		accent-color: #ff4d94; /* Màu hồng giống trong hình */
+	}
+
+	/* Thanh chỉnh thời gian */
+	.time-slider {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+	}
+
+	.time-slider input[type="range"] {
+		-webkit-appearance: none;
+		appearance: none;
+		width: 100px;
+		height: 4px;
+		background: #ff4d94;
+		border-radius: 4px;
+		outline: none;
+		cursor: pointer;
+	}
+
+	/* Định dạng số phút */
+	.time-slider span {
+		font-size: 14px;
+		font-weight: bold;
+		color: #555;
+	}
+
+	/* Rating section */
+	.rating-list {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+	}
+
+	.rating-checkbox {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+		cursor: pointer;
+	}
+
+	/* Style cho ngôi sao */
+	.stars {
+		display: flex;
+	}
+
+	.star-filled {
+		color: gold;
+		font-size: 18px;
+	}
+
+	.star-empty {
+		color: lightgray;
+		font-size: 18px;
+	}
+
+	/* Nút Apply */
+	.apply-button {
+		width: 100%;
+		background: #ff4d94;
+		color: white;
+		border: none;
+		padding: 10px;
+		border-radius: 6px;
+		font-size: 16px;
+		cursor: pointer;
+		margin-top: 15px;
+	}
+
+	.apply-button:hover {
+		background: #e63975;
+	}
+

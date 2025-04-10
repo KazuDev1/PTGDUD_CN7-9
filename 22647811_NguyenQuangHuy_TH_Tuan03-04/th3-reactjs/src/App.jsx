@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from "../src/bai1/Header/index" 
 import Main from "../src/bai1/main.jsx"
+import AppTest from './assets/test.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
