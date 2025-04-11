@@ -1,0 +1,60 @@
+{
+  "overview": {
+    "turnover": "$92,405",
+    "profit": "$32,218",
+    "newCustomer": "298",
+    "turnoverChange": "-5.39%",
+    "profitChange": "-5.39%",
+    "newCustomerChange": "+6.84%"
+  },
+  "reports": [
+    {
+      "id": 1,
+      "name": "Elizabeth Lee",
+      "company": "AvatarSystems",
+      "value": "$359",
+      "date": "10/07/2023",
+      "status": "New"
+    },
+    {
+      "id": 2,
+      "name": "Carlos Garcia",
+      "company": "SnoozeShift",
+      "value": "$747",
+      "date": "24/07/2023",
+      "status": "New"
+    },
+    {
+      "id": 3,
+      "name": "Elizabeth Bailey",
+      "company": "Prime Time Telecom",
+      "value": "$564",
+      "date": "08/08/2023",
+      "status": "In-progress"
+    },
+    {
+      "id": 4,
+      "name": "Ryan Brown",
+      "company": "OmniTech Corporation",
+      "value": "$541",
+      "date": "31/08/2023",
+      "status": "In-progress"
+    },
+    {
+      "id": 5,
+      "name": "Ryan Young",
+      "company": "DataStream Inc.",
+      "value": "$759",
+      "date": "01/09/2023",
+      "status": "Completed"
+    },
+    {
+      "id": 6,
+      "name": "Hailey Adams",
+      "company": "FlowRush",
+      "value": "$922",
+      "date": "10/09/2023",
+      "status": "Completed"
+    }
+  ]
+}
