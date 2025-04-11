@@ -14,7 +14,8 @@
       "company": "AvatarSystems",
       "value": "$359",
       "date": "10/07/2023",
-      "status": "New"
+      "status": "New",
+      "img": "./Avatar (1).png"
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
       "company": "SnoozeShift",
       "value": "$747",
       "date": "24/07/2023",
-      "status": "New"
+      "status": "New",
+      "img": "/img/Avatar (1).png"
     },
     {
       "id": 3,
@@ -30,7 +32,8 @@
       "company": "Prime Time Telecom",
       "value": "$564",
       "date": "08/08/2023",
-      "status": "In-progress"
+      "status": "In-progress",
+      "img": "/img/Avatar (2).png"
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "company": "OmniTech Corporation",
       "value": "$541",
       "date": "31/08/2023",
-      "status": "In-progress"
+      "status": "In-progress",
+      "img": "/img/Avatar (3).png"
     },
     {
       "id": 5,
@@ -46,7 +50,8 @@
       "company": "DataStream Inc.",
       "value": "$759",
       "date": "01/09/2023",
-      "status": "Completed"
+      "status": "Completed",
+      "img": "/img/Avatar (4).png"
     },
     {
       "id": 6,
@@ -54,7 +59,8 @@
       "company": "FlowRush",
       "value": "$922",
       "date": "10/09/2023",
-      "status": "Completed"
+      "status": "Completed",
+      "img": "/img/Avatar (5).png"
     }
   ]
 }

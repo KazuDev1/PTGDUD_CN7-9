@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import DataTable from 'react-data-table-component';
+import img from "../data/img/Avatar.png";
 
 // Định nghĩa cột cho DataTable
 const columns = [
@@ -16,7 +17,7 @@ const columns = [
     sortable: true,
     cell: (row) => (
       <div className="flex items-center">
-        <img src="https://via.placeholder.com/30" alt="Avatar" className="w-8 h-8 rounded-full mr-2" />
+        <img src={img} alt="Avatar" className="w-8 h-8 rounded-full mr-2" />
         {row.name}
       </div>
     ),
