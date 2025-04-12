@@ -1,3 +1,10 @@
 .hover-text:hover > a {
     color: #fff;
 }
+
+.btn-custom {
+    padding: 8px 50px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #799bbe;
+}
