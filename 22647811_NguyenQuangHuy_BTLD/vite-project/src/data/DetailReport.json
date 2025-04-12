@@ -61,6 +61,38 @@
       "date": "10/09/2023",
       "status": "Completed",
       "img": "/img/Avatar (5).png"
+    },
+    {
+      "id": "e29d",
+      "name": "",
+      "company": "",
+      "value": "",
+      "date": "",
+      "status": "New"
+    },
+    {
+      "id": "0577",
+      "name": "123",
+      "company": "123",
+      "value": "123",
+      "date": "123",
+      "status": "New"
+    },
+    {
+      "id": "cf24",
+      "name": "Nguyễn Quang Huy",
+      "company": "AvatarSystems",
+      "value": "$999",
+      "date": "20/04/2004",
+      "status": "New"
+    },
+    {
+      "id": "3e9d",
+      "name": "",
+      "company": "",
+      "value": "",
+      "date": "",
+      "status": "New"
     }
   ]
 }
