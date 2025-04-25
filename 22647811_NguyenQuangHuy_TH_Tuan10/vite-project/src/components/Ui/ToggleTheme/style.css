@@ -1,0 +1,48 @@
+.light-mode {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .dark-mode {
+    background-color: #222;
+    color: #eee;
+  }
+  
+  .theme-toggle {
+    /* Style cho button toggle theme */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; /* Kích thước nút vừa đủ cho icon */
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .theme-toggle:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Tạo hiệu ứng focus */
+  }
+  
+  .sun-and-moon {
+    /* Style cho icon mặt trời/mặt trăng */
+    width: 24px;
+    height: 24px;
+    color: #333; /* Màu mặc định cho mặt trời (light mode) */
+    transition: color 0.3s ease; /* Tạo hiệu ứng chuyển màu */
+  }
+  
+  .dark-mode .sun-and-moon {
+    color: #eee; /* Màu cho mặt trăng (dark mode) */
+  }
+  
+  .sun {
+      fill: currentColor;
+  }
+  
+  .moon {
+      fill: white;
+  }

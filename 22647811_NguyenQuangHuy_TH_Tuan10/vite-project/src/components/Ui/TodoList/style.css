@@ -1,0 +1,133 @@
+.todo-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.add-button {
+  padding: 10px 15px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #4cae4c;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-list-item:last-child {
+  border-bottom: none;
+}
+
+.item-checkbox {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.task-text {
+  flex-grow: 1;
+  font-size: 16px;
+  color: #333;
+}
+
+.task-completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.task-completed::before {
+  content: "\2713\0020"; /* Mã Unicode cho dấu tích (✓) và một khoảng trắng */
+  color: green; /* Màu cho dấu tích */
+  font-weight: bold; /* Làm cho dấu tích đậm hơn */
+  margin-right: 5px; /* Khoảng cách giữa dấu tích và nội dung */
+}
+
+.button-group {
+  margin-left: auto; /* Đẩy nhóm nút sang bên phải */
+}
+
+.complete-button {
+  background-color: #007bff; /* Màu xanh dương ban đầu */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin-right: 5px; /* Thêm khoảng cách với nút Xoá */
+  transition: background-color 0.3s ease;
+  min-width: 80px; /* Đảm bảo nút có đủ không gian cho chữ và dấu tích */
+  text-align: center; /* Căn giữa nội dung */
+}
+
+.complete-button:hover {
+  background-color: #0056b3;
+}
+
+.complete-button.completed-tick {
+  background-color: green; /* Màu xanh lá cây khi hoàn thành */
+  color: white;
+  font-weight: bold; /* Làm dấu tích đậm hơn */
+  padding: 5px; /* Điều chỉnh padding cho vừa dấu tích */
+  width: auto; /* Thu gọn chiều rộng vừa đủ dấu tích */
+  min-width: auto;
+}
+
+.remove-button {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+  background-color: #c9302c;
+}
+
+.hide {
+  display: none; /* Ẩn phần tử */
+}
