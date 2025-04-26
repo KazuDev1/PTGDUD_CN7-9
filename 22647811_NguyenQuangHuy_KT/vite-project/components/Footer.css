@@ -1,0 +1,85 @@
+.footer {
+    background-color: #fff;
+    color: #333;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    border-top: 1px solid #ddd;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-left {
+    flex: 0 0 auto;
+}
+
+.footer-logo {
+    height: 50px;
+    /* Adjust based on the actual logo size */
+}
+
+.footer-center {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-center p {
+    font-size: 14px;
+    margin: 2px 0;
+}
+
+.footer-right {
+    flex: 0 0 auto;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-social span {
+    font-size: 14px;
+}
+
+.footer-social a {
+    font-size: 14px;
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    color: transparent;
+    /* Hide the text, only show the icon */
+}
+
+.footer-social .facebook {
+    background: url('https://via.placeholder.com/20x20?text=F') no-repeat center;
+}
+
+.footer-social .twitter {
+    background: url('https://via.placeholder.com/20x20?text=T') no-repeat center;
+}
+
+.footer-social .linkedin {
+    background: url('https://via.placeholder.com/20x20?text=L') no-repeat center;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    margin: 2px 0;
+    color: #555;
+}

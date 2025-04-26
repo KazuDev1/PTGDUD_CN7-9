@@ -1,0 +1,135 @@
+.content {
+    display: flex;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.sidebar {
+    width: 250px;
+    background: #004080;
+    color: white;
+    padding: 15px;
+}
+
+.sidebar h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    background: white;
+    color: #004080;
+    margin-bottom: 8px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.sidebar ul li:hover {
+    background: #cce0ff;
+}
+
+.main-content {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.content-top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.content-section {
+    flex: 1 1 45%;
+    background: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.content-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #004080;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.content-section ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.new {
+    color: red;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.image-text img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.image-text p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.content-middle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.middle-section {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+.middle-section img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.middle-section h4 {
+    margin-bottom: 10px;
+    color: #004080;
+}
+
+.content-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.bottom-section {
+    flex: 1 1 22%;
+    background: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.bottom-section h5 {
+    margin-bottom: 10px;
+    color: #004080;
+}
+
+.bottom-section p {
+    font-size: 13px;
+    line-height: 1.6;
+}
